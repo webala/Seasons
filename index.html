@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Website Landing Page With Full Screen Draggable Image Slider - Html, Css & Javascript</title>
+  <link rel="stylesheet" href="css/swiper-bundle.min.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+</head>
+<body>
+  <header>
+    <div class="nav-bar">
+      <a href="" class="logo">Logo</a>
+      <div class="navigation">
+        <div class="nav-items">
+          <i class="uil uil-times nav-close-btn"></i>
+          <a href="#"><i class="uil uil-home"></i>Home</a>
+          <a href="#"><i class="uil uil-compass"></i>Explore</a>
+          <a href="#"><i class="uil uil-info-circle"></i>About</a>
+          <a href="#"><i class="uil uil-document-layout-left"></i>Blog</a>
+          <a href="#"><i class="uil uil-envelope"></i>Contact</a>
+        </div>
+      </div>
+      <i class="uil uil-apps nav-menu-btn"></i>
+    </div>
+  </header>
+
+  <section class="home">
+    <div class="swiper bg-slider">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <img src="images/bg1.jpg" />
+          <div class="text-content">
+            <h2 class="title">Autom <span>Season</span></h2>
+            <p>Autumn, also known as fall in North American English, is one of the four temperate
+              seasons. Outside the tropics, autumn marks the transition from summer to winter,
+              in September or March. Autumn is the season when the duration of daylight becomes 
+              noticeably shorter and the temperature cools considerably.</p>
+              <button class="read-btn">Read More <i class="uil uil-arrow-right"></i></button>
+          </div>
+        </div>  
+      </div>
+    </div>
+
+    <div class="swiper bg-slider-thumbs">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <img src="https://swiperjs.com/demos/images/nature-1.jpg" />
+        </div>
+      </div>
+    </div>
+
+  </section>
+  <script src="js/swiper-bundle.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
